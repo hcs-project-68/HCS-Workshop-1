@@ -1,20 +1,17 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import About from "../../components/About/About.jsx";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
-      <div className="intro-background">
-        <div className="intro-item">
-          <img src={CutePic} className="intro-picture" />
-        </div>
-        <div className="intro-item">
-          <h1>Short. Inspiring. Words.</h1>
-          <h2>CS @ Harvard, 2023</h2>
-          <p>Hi! Welcome to my website!!!!!</p>
-        </div>
-      </div>
+      <About title="Web development skills">
+        I am too cool to use &lt;detail&gt; tags and make things accessible.
+      </About>
+
+      <About title="Education">
+        I learned how to add numbers when I was 5
+      </About>
     </div>
   );
 }
