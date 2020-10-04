@@ -14,6 +14,11 @@ export default function ProjectsScreen() {
         description="This website!!"
         link="https://bing.com"
       />
+      <Project
+        title="A counter"
+        description="Click to get a counter"
+        link="/counter"
+      />
     </div>
   );
 }
